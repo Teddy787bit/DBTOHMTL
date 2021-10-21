@@ -1,0 +1,36 @@
+
+c_name = Medicine Name: Name of the medicine
+c_batch_no = Batch Number : Batch Number of the medicine
+d_expiry_date = Expiry Date : expiry date of that batch of the medicine
+n_balance_qty = Balance Quantity : stock quantity of that batch of the medicine.
+c_packaging = Packaging:  packaging of the medicine
+c_unique_code = Unique Code : unique Code specific to this medicine.
+c_schemes : Scheme Scheme of the particular batch of the medicine.
+n_mrp = MRP :  MRP of the medicine
+c_manufacturer= Manufacturer:  manufacturer for the medicine
+hsn_code = HSN Code : HSN no. of the medicine
+
+
+/*var medicine = new Medicinedb();
+        var stream = fs.createReadStream(csvfile)
+        .pipe(csv())
+                .on('data', (data) => {
+                    medicine({                   
+                    c_name :data[0],
+                    c_batch_no :data[1],
+                    d_expiry_date :data[2], 
+                    n_balance_qty :data[3], 
+                    c_packaging :data[4],
+                    c_unique_code :data[5],
+                    c_schemes :data[6],
+                    n_mrp :data[7],
+                    c_manufacturer :data[8],
+                    hsn_code :data[9]
+                   });
+                   
+                })
+                .on('end', () => {
+                    console.log('CSV file successfully processed');
+                })
+                console.log(medicine);
+                res.json({success : "Data imported successfully.", status : 200});*/

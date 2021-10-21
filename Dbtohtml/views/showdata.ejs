@@ -1,0 +1,28 @@
+<!-- Header -->
+<%- include('includes/_header') %>
+<!-- /Header -->
+<div style="overflow-x:auto;">
+    <table class="table">
+      <thead class="thead-dark">
+        <tr>
+          <th>Sr.No</th>
+          <th>Medicine Name</th>
+          <th >Batch Number</th>
+          <th>Expiry Date</th>
+          <th>Balance Quantity</th>
+          <th>Packaging</th>
+          <th>Unique Code</th>
+          <th>Scheme</th>
+          <th>MRP</th>
+          <th>Manufacturer</th>
+          <th>HSN Code</th>
+        </tr>
+      </thead>
+        <tbody class="thead-light">
+          <%- include('includes/_show') %>
+        </tbody>
+      </table>
+    </div>
+<!-- Footer -->
+<%- include('includes/_footer') %>
+<!-- /Footer -->

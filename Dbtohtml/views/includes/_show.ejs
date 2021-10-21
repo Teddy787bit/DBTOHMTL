@@ -1,0 +1,16 @@
+<% for(var i = 0; i < medicine.length; i++) { %>
+    <tr>
+        <td><%= i + 1 %></td>
+        <td><%= medicine[i].c_name %></td>
+        <td><%= medicine[i].c_batch_no %></td>
+        <td><%= medicine[i].d_expiry_date %></td>
+        <td><%= medicine[i].n_balance_qty %></td>
+        <td><%= medicine[i].c_packaging %></td>
+        <td><%= medicine[i].c_unique_code %></td>
+        <td><%= medicine[i].c_schemes  %></td>
+        <td><%= medicine[i].n_mrp %></td>
+        <td><%= medicine[i].c_manufacturer %></td>
+        <td><%= medicine[i].hsn_code %></td>  
+        </td>
+    </tr>
+    <% } %>
